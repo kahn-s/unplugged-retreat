@@ -89,7 +89,7 @@ textarea {
 /*****************  BASE HEADER-FOOTER Styles  **********************/
 
 header, footer{
-  margin:0;
+  margin:10px;
   padding:0;
   display:flex;
   justify-content: center;
@@ -102,20 +102,38 @@ header .content-wrapper{
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  width: 100%;
 }
-
+.header-divider{
+  width: 97%;
+}
 header nav{
       display: flex;
       justify-content: space-around;
       align-items: center;
       flex-flow: row wrap;
+      width:60%;
+      padding: 15px;
 }
 header nav ul{   
   display:flex; 
   justify-content: space-around; 
+  padding-left:0;
 }
-nav ul li {
-      list-style: none;  
+header nav ul li {
+      list-style: none; 
+      display:flex; 
+      justify-content: space-around; 
+
+}
+h1, h2, h3, p {
+  padding: 0 15px;
+}
+.footer p{
+  margin: 0;
+}
+footer .content-wrapper{
+  width:55%;
 }
 footer .social-icons{
   display:flex;
@@ -142,23 +160,44 @@ aside{
   align-items: center;
   flex-flow: row wrap;
 }
-
+aside h3 {
+  padding-top: 25px;
+  padding-left: 0;
+}
+aside .form{
+  padding-left: 15px;
+}
+aside .form input{
+  width:88%;
+  box-sizing:border-box;
+  padding-left: 15px;
+}
 .features{
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  width: 85%;
+}
+
 }
 .features .features-items{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    padding: 25px  50px;
 }
 
 .reviews{
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+}
+.reviews h2{
+  width: 80%;
+}
+.contact, .social{
+  text-align: center;
 }
 /*************  Mobile styles About Page *****************/
 .mission{
