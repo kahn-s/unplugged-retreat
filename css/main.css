@@ -96,64 +96,46 @@ header, footer{
   align-items: center;
   flex-flow: row wrap;
 }
-/************  HEADER  *******************************************/
 
 header .content-wrapper{
   display:flex;
   justify-content: center;
+  align-items: center;
   flex-flow: row wrap;
 }
-a{
-  padding: 10px;
-}
-nav{
-      display: flex;
-      justify-content: center;
-      flex-flow: row wrap;
-      width:100%;
-}
-nav ul{
-  margin:0;    
-  display:flex;  
-}
-nav ul li {
+
+header nav{
       display: flex;
       justify-content: space-around;
+      align-items: center;
+      flex-flow: row wrap;
+}
+header nav ul{   
+  display:flex; 
+  justify-content: space-around; 
+}
+nav ul li {
       list-style: none;  
 }
-footer .content-wrapper{
-
-}
-.footer-content{
-
-}
-address .contact{
-
-}
-footer .social icons{
+footer .social-icons{
   display:flex;
+  justify-content: space-around;
+  align-items: center;
+  
 }
-footer .social{
+footer .social-icons p{
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.copyright{
-
-}
-/*********************  MAIN ****************/
+/*****************  Mobile Styles --  Homepage  ********************/
 .hero-area {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  width:100%;
 }
-main{
-  display:flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-  width: 100%;
-}
+
 aside{
   display: flex;
   justify-content: center;
@@ -161,84 +143,55 @@ aside{
   flex-flow: row wrap;
 }
 
-aside .form-description{
-    display: flex;
-    flex-flow: row wrap;
-}
-aside .form{
-    display:flex;
-    flex-flow: row wrap;
-}
 .features{
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-flow: row wrap;
 }
 .features .features-items{
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-flow: row wrap;
 }
-.features-items article{
-  display: flex;
-  flex-flow:row wrap;
-}
-  article p .fontawsome-icon{
-
-  }
-   article p .features-item-description{
-
-  }
 
 .reviews{
   display: flex;
   justify-content: center;
-  align-items: center;
   flex-flow: row wrap;
-  width: 100%;
 }
-
-.reviews .review{
-
-}
+/*************  Mobile styles About Page *****************/
 .mission{
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
 }
-.mission-content{
-  display:flex;
-  justify-content: center;
-  align-items: center;
-}
-figure{
 
-}
 .contact-section{
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
 }
-.general-info{
-  display:flex;
-}
-.facilitator{
-  display:flex;
+/************** Mobile Styles FAQ page   *******************/
+.faq{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 .faq .content-wrapper{
   display: flex;
   justify-content: center;
   align-items: center;
-}
-.faq .question-answer{
-  display:flex;
+  flex-flow: row wrap;
 }
 
 
 
-/*****************  Mobile Styles --  Homepage  ********************/
+
+
 /* ==========================================================================
    Helper classes
    ========================================================================== */
