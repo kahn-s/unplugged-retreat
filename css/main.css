@@ -360,7 +360,7 @@ p{
    Modify as content requires.
    ========================================================================== */
 
-   /**************  TABLET STYLES  ********************************************/
+   /**************  TABLET STYLES  HOMEPAGE  ********************************************/
 
 @media only screen and (min-width: 768px){
   .content-wrapper{
@@ -385,6 +385,11 @@ p{
    line-height: 30px;
    padding:0;
  }
+ h4{
+   font-family: "Poppins", sans-serif;
+   font-size: 14px;
+   line-height: 18px;;
+ }
  p{
   font-family: "Open sans", sans-serif;
   font-size: 14px;
@@ -395,18 +400,19 @@ p{
     width: 100%;
   }
   header .content-wrapper{
-    width: 78%;
+    justify-content: space-between;
+    margin: 30px 50px;
   }
   header nav{
-    width: 50%;
+    width: 30%;
   }
   header nav ul{
     display:flex;
-    justify-content: space-between;
+  
   }
   header nav ul li{
     display:flex;
-    justify-content: space-between;
+    justify-content: space-around;
   }
   .header-divider{
     display:none;
@@ -467,29 +473,120 @@ p{
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
-    margin:50px 0;
+    margin: 0 50px;
     width: 100%;
   }
  .reviews h2{
-   margin: 0 50px;
    width: 70%;
    display: flex;
+   padding-left: 50px;
  }
-  .reviews article{
+   .reviews .review-content{
     display: flex;
-    justify-content:center ;
-    flex-flow: row wrap;
-    width: 40%;
-    margin: 0 50px;
-  }
-  .reviews  article img{
-    display: flex;
+    margin-right: 50px;
     
   }
-  .reviews article h3, 
-  .reviews article  p{
+  .reviews .review-content img,
+  .reviews .review-content h3, 
+  .reviews  .review-content p{
     display: flex;
+    flex: 1 1 auto;
+    width: 50%;
+    
+  }
+ .reviews .review-content img{
+   background-color: gray;
+   width: 300px;
+   height: 220px;
+   padding-left: 50px;
+ }
+  .reviews .review-content h3 {
+    margin-top:0;
+    padding-left: 15px;
+    width: 100%;
+  }
+  .reviews .review-content p{
+    padding-left:15px;
+    width: 100%
+  }
+    /**************  FOOTER   ******************/
+
+  footer .content-wrapper{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row wrap;
+    width: 75%;
+  }
+  footer .footer-content {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+  }
+  footer .footer-content address .contact,
+  footer .footer-content .social{
+    width: 200px;
+    
+  }
+  footer .footer-content h4{
+    padding: 30px 100px;
+  }
 } 
+
+
+   /**************  TABLET STYLES  ABOUT ********************************************/
+
+
+.mission .content-wrapper{
+  margin: 0 50px;
+  display:flex;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-flow: row wrap;
+}
+.mission h2{
+  width: 100%;
+}
+.mission p{
+  display: flex;
+  width: 48%;
+  padding: 0;
+}
+.contact-section .content-wrapper{
+  margin: 0 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-flow: row wrap;
+}
+.contact-section h2{
+  width: 80%;
+}
+.contact-section .contact-content{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0;
+}
+ /**************  TABLET STYLES  FAQ  **********************/
+.faq .content-wrapper{
+  margin: 0 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-flow: row wrap;
+}
+.faq h2{
+  width: 80%;
+}
+.faq .faq-content{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  width:50%;
+  padding: 0;
+}
+
 /**************** DESKTOP STYLES  ***************/
 @media only screen and (min-width: 1200px){
 
