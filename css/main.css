@@ -187,7 +187,6 @@ header figure{
 .header-divider{
   height: 1px;
   width: 100%;
-  margin: 10px 0 20px 0;
 }
 
 header nav{
@@ -263,7 +262,7 @@ footer .copyright{
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  height:500px;
+  min-height:500px;
 }
 
 .hero-area h1{
@@ -593,7 +592,7 @@ input[type=button]{
     display:flex;
     justify-content: center;
     align-items: center;
-    flex-flow: row wrap;
+    flex-flow: column wrap;
     flex-basis: 50%;
   }
 
@@ -647,7 +646,12 @@ input[type=button]{
     display: flex;
     justify-content: space-around;
     align-items:center;
+    margin:0;
   }
+footer .social-icons {
+  width: 12.5em;
+  justify-content: space-around;
+}
 
   footer .contact{
     margin-bottom: 0;
