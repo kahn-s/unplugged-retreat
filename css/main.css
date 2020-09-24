@@ -216,8 +216,10 @@ footer p{
 }
 footer .content-wrapper{
   width: 55%;
-  margin: 50px, 0;
+  padding-top:20px;
+  margin:0;
 }
+
 footer .footer-content{
   margin-bottom: 50px;
   text-align: center;
@@ -229,11 +231,17 @@ footer .social-icons{
   align-items: center;
 }
 
-footer .social-icons i{
-  font-size: 1.125em;
+footer .social-icons p {
+  font-size: 1.3em;
+  height:40px;
+  width:40px;
+  border-radius: 50%;
   background-color: #527158;
   
 }
+footer .social h4{
+  padding-top: 10px;
+} 
 
 footer .social-icons p{
   display: flex;
