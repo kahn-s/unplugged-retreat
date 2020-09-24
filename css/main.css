@@ -227,8 +227,14 @@ footer .social-icons{
   display:flex;
   justify-content: space-around;
   align-items: center;
+}
+
+footer .social-icons i{
+  font-size: 1.125em;
+  background-color: #527158;
   
 }
+
 footer .social-icons p{
   display: flex;
   justify-content: center;
@@ -319,9 +325,14 @@ input[type=button]{
     align-items: center;
     flex-flow: row wrap;
 }
+.features i{
+  font-size: 3.75em;
+  margin-bottom: 40px;
+}
 
 .features p{
   margin: 0;
+  text-align: center;
 }
 
 /*  Reviews */
@@ -387,6 +398,7 @@ input[type=button]{
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background-color: #527158;
 }
 
 .faq .content-wrapper{
@@ -400,9 +412,6 @@ input[type=button]{
   margin-bottom: 40px;
 }
 
-.faq .faq-content{
-  margin-bottom: 50px;
-}
 
 /* ==========================================================================
    Helper classes
