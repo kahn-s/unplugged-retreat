@@ -258,7 +258,7 @@ footer .copyright{
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-  background-image: url('file:///Users/sharonkahn/Desktop/web-dev/responsive-design/unplugged-retreat/img/jake-melara-web-30679-unsplash.jpg');
+  background-image: url('../img/jake-melara-web-30679-unsplash.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -780,6 +780,7 @@ header nav{
   .reviews figure{
     display:flex;
     width:49%;
+    max-height: 50%;
   }
   .reviews img{
     width: 100%;
